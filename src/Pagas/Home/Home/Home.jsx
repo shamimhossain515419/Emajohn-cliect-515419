@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import Gallary from "../Gallry/Gallary";
 import Product from "../Product/Product";
+import Menu from "./Menu/Menu";
 
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
           <div>
              <Banner> </Banner> 
              <Gallary></Gallary>
-         <Product></Product>
+             <Menu></Menu>
+           <Product></Product>
           </div>
      );
 };

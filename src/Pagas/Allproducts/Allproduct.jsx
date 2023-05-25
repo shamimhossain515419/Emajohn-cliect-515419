@@ -10,7 +10,7 @@ const Allproduct = () => {
      const [serach, setSearch] = useState('')
      const searchRef= useRef(null)
      useEffect(() => {
-          fetch(`http://localhost:5000/product?search=${serach}`)
+          fetch(`https://y-beta-lilac.vercel.app/product?search=${serach}`)
                .then(res => res.json())
                .then(data => setProducts(data))
      }, [serach])

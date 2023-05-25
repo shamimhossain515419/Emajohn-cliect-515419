@@ -1,12 +1,16 @@
 import { FaStar } from "react-icons/fa";
 import Rating from "react-rating";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const ProductCardHome = ({product}) => {
-    
+     useEffect(() => {
+          AOS.init();
+        }, [])
      const { img, ratings, price, seller, name } = product
      return (
-          <div className=" relative shadow-lg cursor-pointer  rounded-xl overflow-hidden ">
+          <div data-aos="zoom-in-down"  className=" relative shadow-lg cursor-pointer  rounded-xl overflow-hidden ">
                <div className=" relative overflow-hidden">
                     <img className="   h-72 w-full hover:scale-110 duration-150   rounded-md" src={img} alt="" />
                </div>

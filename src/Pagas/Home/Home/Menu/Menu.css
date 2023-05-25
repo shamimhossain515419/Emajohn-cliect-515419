@@ -1,0 +1,10 @@
+.manubackground{
+      background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.542)), url('https://img.freepik.com/premium-photo/elements-precautions-against-sunstroke-help-hot-weather-taking-care-your-health-summer-bright-sun-heat-poor-wellbeing-water-cool-refreshments-global-warming_771426-3613.jpg?w=996');
+      background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+     }

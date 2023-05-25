@@ -11,7 +11,7 @@ const [acctive,setAcctive]=useState("Men's Sneaker")
 const [products, setProducts] = useState([]);
 
 useEffect(()=> {
-      fetch(`http://localhost:5000/product/${acctive}`)
+      fetch(`https://y-beta-lilac.vercel.app/product/${acctive}`)
       .then(res=>res.json())
       .then(data=>setProducts(data))
 } ,[acctive])

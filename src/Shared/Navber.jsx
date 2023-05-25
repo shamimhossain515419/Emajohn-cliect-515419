@@ -41,8 +41,8 @@ const handlogout=()=>{
 
                        <div>
                               {user ? <div className=" relative md:flex gap-3 ">
-                                   <NavLink to={'/mytoy'} className={({ isActive }) => isActive ? " text-xl  block font-semibold m-3  text-blue-600" : " text-xl  font-semibold m-3  block"} >My Toy</NavLink>
-                                   <NavLink to={'/addtoy'} className={({ isActive }) => isActive ? " text-xl  block  font-semibold m-3  text-blue-600" : " text-xl  font-semibold m-3  block "} >Add A Toy</NavLink>
+                                   <NavLink to={'/mytoy'} className={({ isActive }) => isActive ? " text-xl  block font-semibold m-3  text-blue-600" : " text-xl  font-semibold m-3  block"} >My Product</NavLink>
+                                   <NavLink to={'/addtoy'} className={({ isActive }) => isActive ? " text-xl  block  font-semibold m-3  text-blue-600" : " text-xl  font-semibold m-3  block "} >Add A Product</NavLink>
                                    <img onMouseLeave={()=>serdisplay(false)} onMouseMove={()=>serdisplay(true)} onClick={()=>setlogout(!logout)} className="  cursor-pointer relative h-10 w-10 rounded-full m-2" src={user.photoURL
                                    } alt="" />
                                     <h1 className={` ${display ? "block" : "  hidden "} absolute top-0 right-11 bg-white p-2  text-blue-600  text-lg`} > {user.displayName} </h1>
