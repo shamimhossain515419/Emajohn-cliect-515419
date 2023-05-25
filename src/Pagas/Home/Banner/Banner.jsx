@@ -11,7 +11,7 @@ const Banner = () => {
       }, [])
      return (
           <div >
-               <Carousel>
+               <Carousel autoPlay>
                 <div data-aos="zoom-in-right">
                     <img src="https://graphicsfamily.com/wp-content/uploads/edd/2022/06/Free-E-commerce-Product-Banner-Design-with-Green-Colors-scaled.jpg" />
      

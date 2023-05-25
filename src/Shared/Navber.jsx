@@ -21,7 +21,7 @@ const handlogout=()=>{
 }
 
      return (
-          <div className=" shadow-md px-3 bg-[#000] text-white">
+          <div className="   fixed top-0  z-50  w-full  max-w-screen-xl mx-auto    shadow-md px-3 bg-[#000] text-white">
 
                <div className=" md:flex gap-2  justify-between items-center">
                     <div className=" flex justify-between items-center">

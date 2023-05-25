@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import Allcard from "./Allcard";
 import SectionTitle from "../../Component/SectionTitle";
+import Ourcapmenu from "../../Shared/Ourmenu/Ourcapmenu";
 
 
-
+ 
 const Allproduct = () => {
 
      const [products, setProducts] = useState([]);
@@ -25,6 +26,12 @@ const Allproduct = () => {
 
      return (
           <div className=" mt-9 ">
+                      <div>
+
+                         <Ourcapmenu img={'https://img.freepik.com/premium-photo/pair-converse-shoes-with-green-laces-are-sitting-reflective-surface_842113-1249.jpg?size=626&ext=jpg&ga=GA1.2.824354190.1681013433&semt=ais'} title={"OUR MENU"} details={" Would you like try  boot"}></Ourcapmenu>
+                      </div>
+
+
                <div>
                     <SectionTitle subTitle="View All Product" HeaderTitle="All Product"></SectionTitle>
                </div>
